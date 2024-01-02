@@ -2,6 +2,7 @@
 ## Do I have **missing data**?
 ### Detecting missing data
 ```python
+# Will print basic information about the dataframe, like the number of non-null values or the type of each column
 df.info()
 ```
 ### If yes, how to deal with it?
