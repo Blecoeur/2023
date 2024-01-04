@@ -61,5 +61,6 @@ Useful for regression
 ### Example of the timestamp format
 ```python
 import datetime
+# Convert a timestamp to a datetime object
 pd.to_datetime(df['column']) # Can choose the format using it as a parameter
 ```
